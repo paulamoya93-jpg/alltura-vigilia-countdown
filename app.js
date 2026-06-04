@@ -5,8 +5,7 @@ const tasksData = {
     date: 'Viernes 5 de junio',
     isEvent: false,
     items: [
-      { text: 'Enviar mensaje a los 5 perfiles recordando que pueden tomar fotos este fin de semana', responsible: 'Pau' },
-      { text: 'Confirmar que tienen las cámaras desechables', responsible: 'Pau' }
+      { text: 'Enviar mensaje a los 5 perfiles recordando que deben tomar fotos este fin de semana', responsible: 'Lilo' }
     ]
   },
   '2026-06-11': {
@@ -14,8 +13,8 @@ const tasksData = {
     date: 'Jueves 11 de junio',
     isEvent: false,
     items: [
-      { text: 'Que nos entreguen las cámaras desechables de los 5 perfiles', responsible: 'Pau' },
-      { text: 'Verificar que todas las cámaras estén en buen estado', responsible: 'Andrés' }
+      { text: 'Que nos entreguen las cámaras desechables', responsible: 'Lilo y Paula' },
+      { text: 'Mandar a revelar las cámaras', responsible: 'TBC' }
     ]
   },
   '2026-06-12': {
@@ -23,12 +22,12 @@ const tasksData = {
     date: 'Miércoles 12 de junio',
     isEvent: false,
     items: [
-      { text: 'Dejar listo el e-commerce con todos los productos montados', responsible: 'Daniela' },
+      { text: 'Dejar listo el e-commerce con todos los productos montados', responsible: 'Andrés y Paula' },
       { text: 'Tener lista la parrilla de contenido de lanzamiento', responsible: 'Paula' },
-      { text: 'Enviar invitaciones digitales diseñadas', responsible: 'Pau' },
-      { text: 'Confirmar asistencia influencers', responsible: 'Pau' },
+      { text: 'Enviar invitaciones digitales diseñadas', responsible: 'Equipo' },
+      { text: 'Confirmar asistencia influencers', responsible: 'Lilo y Paula' },
       { text: 'Preparar laptop con carrusel de fotos Vigilia', responsible: 'Paula' },
-      { text: 'Desglose de prendas por talla y precio', responsible: 'Daniela' }
+      { text: 'Desglose de prendas por talla y precio para arte', responsible: 'Daniela' }
     ]
   },
   '2026-06-16': {
@@ -36,10 +35,10 @@ const tasksData = {
     date: 'Martes 16 de junio',
     isEvent: false,
     items: [
-      { text: 'Revelar las fotos de las cámaras desechables', responsible: 'Pau' },
+      { text: 'Revelar las fotos de las cámaras desechables', responsible: 'TBC' },
       { text: 'Tener listas todas las fotos para la instalación', responsible: 'Paula' },
-      { text: 'Reminder a invitados sin confirmar', responsible: 'Pau' },
-      { text: 'Empacar racks y prendas', responsible: 'Daniela' },
+      { text: 'Reminder a invitados sin confirmar', responsible: 'Equipo' },
+      { text: 'Empacar racks y prendas', responsible: 'Equipo' },
       { text: 'Confirmar horarios catering', responsible: 'Andrés' }
     ]
   },
@@ -48,11 +47,11 @@ const tasksData = {
     date: 'Miércoles 18 de junio',
     isEvent: false,
     items: [
-      { text: 'Montaje: cables, luz, decoración, racks, TV (14:00–17:00)', responsible: 'Andrés' },
-      { text: 'Instalación de fotos reveladas con luz roja', responsible: 'Andrés' },
-      { text: 'Test final: luz, TV, Shopify, wifi', responsible: 'Andrés' },
-      { text: 'Entrenar al equipo en roles', responsible: 'Camilo' },
-      { text: 'Cargar champaña en copas frías', responsible: 'Andrés' }
+      { text: 'Montaje: cables, luz, decoración, racks, TV (14:00–17:00)', responsible: 'Equipo' },
+      { text: 'Instalación de fotos reveladas con luz roja', responsible: 'Equipo' },
+      { text: 'Test final: luz, TV, Shopify, wifi', responsible: 'Equipo' },
+      { text: 'Hace el chequeo del minuto a minuto del evento', responsible: 'Lilo' },
+      { text: 'Comprar champañas', responsible: 'Andrés' }
     ]
   },
   '2026-06-19': {
