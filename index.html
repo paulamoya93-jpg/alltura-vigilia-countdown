@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigilia Countdown — Alltura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content">
+        <h1>Vigilia — Countdown de Ejecución</h1>
+        <p class="subtitle">Lanzamiento: Jueves 25 de junio, 2026 — La Dacha Librería</p>
+      </div>
+      <div class="header-stats">
+        <div class="stat">
+          <div class="stat-value" id="tasks-total">0</div>
+          <div class="stat-label">Tareas totales</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="tasks-done">0</div>
+          <div class="stat-label">Completadas</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="days-left">0</div>
+          <div class="stat-label">Días restantes</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="calendar-section">
+        <h2>Calendario de Junio</h2>
+        <div class="calendar">
+          <div class="calendar-weekdays">
+            <div class="weekday">L</div>
+            <div class="weekday">M</div>
+            <div class="weekday">M</div>
+            <div class="weekday">J</div>
+            <div class="weekday">V</div>
+            <div class="weekday">S</div>
+            <div class="weekday">D</div>
+          </div>
+          <div class="calendar-days" id="calendar"></div>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <h2>Hitos y Tareas</h2>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="settings-section">
+        <h2>Opciones</h2>
+        <div class="settings">
+          <button class="btn btn-secondary" onclick="resetTasks()">Limpiar todas las tareas</button>
+          <button class="btn btn-secondary" onclick="exportData()">Descargar datos</button>
+          <button class="btn btn-secondary" onclick="testReminder()">Probar reminder WhatsApp</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Alltura © 2026 | Elevemos juntos 🚀</p>
+      <p style="font-size: 12px; margin-top: 8px; color: var(--color-text-secondary);">Última sincronización: <span id="last-sync">—</span></p>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
