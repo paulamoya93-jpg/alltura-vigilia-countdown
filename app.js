@@ -10,7 +10,7 @@ const tasksData = {
   },
   '2026-06-11': {
     title: 'ENTREGA DE CÁMARAS',
-    date: 'Jueves 11 de junio',
+    date: 'Martes 9 de junio',
     isEvent: false,
     items: [
       { text: 'Que nos entreguen las cámaras desechables', responsible: 'Lilo y Paula' },
@@ -19,7 +19,7 @@ const tasksData = {
   },
   '2026-06-12': {
     title: '1 SEMANA ANTES',
-    date: 'Miércoles 12 de junio',
+    date: 'Viernes 12 de junio',
     isEvent: false,
     items: [
       { text: 'Dejar listo el e-commerce con todos los productos montados', responsible: 'Andrés y Paula' },
