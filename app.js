@@ -1,4 +1,4 @@
-// Datos de tareas — VERSIÓN ACTUALIZADA
+// Datos de tareas
 const tasksData = {
   '2026-06-05': {
     title: 'RECORDATORIO A PERFILES',
